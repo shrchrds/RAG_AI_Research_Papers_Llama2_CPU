@@ -8,7 +8,7 @@ This repository is having RAG implemented on AI Research papers using Llama2 qua
 clone the repository
 
 ```bash
-git clone https://github.com/
+git clone https://github.com/shrchrds/RAG_AI_Research_Papers_Llama2_CPU.git
 ```
 
 ### Steps 2:
@@ -16,11 +16,11 @@ git clone https://github.com/
 Create a virtual environment
 
 ```bash
-conda create -n cpullama python=3.8 -y
+conda create -n rag_cpu_llama python=3.8 -y
 ```
 
 ```bash
-conda activate cpullama
+conda activate rag_cpu_llama
 ```
 
 ```bash
