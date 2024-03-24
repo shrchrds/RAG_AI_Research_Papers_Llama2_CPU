@@ -6,7 +6,7 @@ from src.helper import *
 B_INST, E_INST = "[INST]", "[/INST]"
 B_SYS, E_SYS = "<<SYS>>\n", "\n<</SYS>>\n\n"
 
-instruction = "Please provide a concise answer in simple English under 500 words. Avoid repetition: \n\n {question}"
+instruction = "Provide a concise answer in simple English under 500 words. Avoid repetition of words when answer is less than 500 words: \n\n {question}"
 
 SYSTEM_PROMPT = B_SYS + CUSTOM_SYSTEM_PROMPT + E_SYS
 template = B_INST + SYSTEM_PROMPT + instruction + E_INST
